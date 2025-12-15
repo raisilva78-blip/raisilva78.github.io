@@ -1,0 +1,74 @@
+body
+{
+	background-color:#9EECFF
+}
+hi,h2,h3,
+{
+	font-family: Arial;
+}
+p {
+  text-align: center;
+}
+h1,h2,h3,
+{
+   font-size: 25px	
+	
+}
+p
+{
+	font-size:30px
+}
+
+nav {
+  background-color: #2699E6;
+  overflow: hidden; /* Para limpar floats se houver */
+}
+
+nav ul {
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Transforma a UL em um container flex */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+  /* Os itens já ficam lado a lado por causa do display: flex na UL */
+}
+
+nav ul li a {
+  display: block; /* Garante que o padding seja aplicado corretamente */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Remove sublinhado */
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+img {
+  position: relative;
+  top: 0px; 
+  left: 410px; 
+} 
+table {	
+  position: relative;
+  top: 0px;
+  left: 410px;
+  background-color: white;
+}
+Dewott {
+	text-align: center
+}
+h1, h2, p {
+  text-align: center;
+}
+.responsivel{
+	width: 100%
+	height:auto;
+	max-width:410px
+	
+	
+}
